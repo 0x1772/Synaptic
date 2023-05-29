@@ -1,0 +1,84 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+ <!-- Launching programs -->
+
+    <category>
+        <pattern>Firefox'u aç</pattern>
+         <template>
+             <random>
+               <li>Hemen açıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Açılıyor</li>
+            </random>
+            <system>"C:\Program Files\Firefox Developer Edition\firefox.exe"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Firefox uygulamasını aç</pattern>
+         <template>
+             <random>
+               <li>Hemen açıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Açılıyor</li>
+            </random>
+            <system>"C:\Program Files\Firefox Developer Edition\firefox.exe"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Firefoxu başlat</pattern>
+         <template>
+             <random>
+               <li>Hemen açıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Açılıyor</li>
+            </random>
+            <system>"C:\Program Files\Firefox Developer Edition\firefox.exe"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Firefox uygulamasını aç</pattern>
+         <template>
+             <random>
+               <li>Hemen açıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Açılıyor</li>
+            </random>
+            <system>"C:\Program Files\Firefox Developer Edition\firefox.exe"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOOGLE *</pattern>
+        <template>
+             <random>
+               <li>Sonuçları listeliyorum </li>
+               <li>Arama sonuçları karşınızda efendim</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "http://www.google.com/search?q=<star/>"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YOUTUBE *</pattern>
+        <template>
+             <random>
+               <li>Sonuçları listeliyorum </li>
+               <li>Videoları listeliyorum</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.youtube.com/results?search_query=<star/>"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>BARBIE</pattern>
+        <template>
+             <random>
+               <li>Kutsal videoyu açıyorum efendim.</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.youtube.com/watch?v=ZyhrYis509A"</system>
+        </template>
+    </category>
+
+</aiml>
