@@ -1,0 +1,33 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+ <!-- VOLUME CONTROLS -->
+
+	 <category>
+        <pattern>SESI FULLE</pattern>
+         <template>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py s 100</system>
+        </template>
+    </category>
+
+       <category>
+        <pattern>SESI KAPAT</pattern>
+         <template>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py s 0</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SES *</pattern>
+         <template>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py s <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SES SEVIYESI *</pattern>
+         <template>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py g</system>
+        </template>
+    </category>
+
+</aiml>

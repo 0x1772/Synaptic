@@ -77,8 +77,27 @@
              <random>
                <li>Kutsal videoyu açıyorum efendim.</li>
             </random>
-            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.youtube.com/watch?v=ZyhrYis509A"</system>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.youtube.com/results?search_query=<star/>"</system>
         </template>
     </category>
-
+    <category>
+        <pattern>Haritalar *</pattern>
+        <template>
+             <random>
+               <li>İstediğiniz konumu haritalar üzerinde açıyorum</li>
+               <li>Haritalar açılıyor</li>
+               <li>Konumu açıyorum.</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.google.co.in/maps/search/<star/>"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>NETFLIX</pattern>
+        <template>
+             <random>
+               <li>Netflix açılıyor</li>
+               <li>Sayfa yükleniyor efendim</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" https://www.netflix.com </system>
+        </template>
 </aiml>
