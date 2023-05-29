@@ -2,30 +2,30 @@
 	
  <!-- VOLUME CONTROLS -->
 
-	 <category>
+	<category>
         <pattern>SESI FULLE</pattern>
-         <template>
+        <template>
             <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py s 100</system>
         </template>
     </category>
 
-       <category>
+    <category>
         <pattern>SESI KAPAT</pattern>
-         <template>
+        <template>
             <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py s 0</system>
         </template>
     </category>
 
     <category>
         <pattern>SES *</pattern>
-         <template>
+        <template>
             <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py s <star/></system>
         </template>
     </category>
 
     <category>
         <pattern>SES SEVIYESI *</pattern>
-         <template>
+        <template>
             <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py g</system>
         </template>
     </category>

@@ -100,4 +100,5 @@
             </random>
             <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" https://www.netflix.com </system>
         </template>
+    <category>
 </aiml>

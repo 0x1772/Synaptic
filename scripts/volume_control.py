@@ -1,4 +1,5 @@
 import sys
+import codecs
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
@@ -16,7 +17,7 @@ def get_volume():
         return int(volume.GetMasterVolumeLevelScalar() * 100)
     
     except Exception as e:
-        print("Ses düzeyi alınamadı:", str(e))
+        print("Ses duzeyi alinamadi:", str(e))
         return None
 
 def set_volume(volume):
@@ -33,26 +34,26 @@ def set_volume(volume):
         volume = cast(interface, POINTER(IAudioEndpointVolume))
         volume.SetMasterVolumeLevelScalar(new_volume, None)
         
-        print("Ses düzeyi ayarlandı:", volume, "percent")
+        print("Ses duzeyi ayarlandi")
     
     except Exception as e:
-        print("Ses düzeyi ayarlanamadı:", str(e))
+        print("Ses duzeyi ayarlanamadi:", str(e))
 
 # Komut satırı argümanlarına göre ses düzeyini kontrol et
 if len(sys.argv) == 1 or sys.argv[1] == "g":
     volume = get_volume()
     if volume is not None:
-        print("Mevcut ses düzeyi:", volume, "percent")
+        print("Mevcut ses duzeyi: {} percent".format(volume))
 
 elif sys.argv[1] == "s" and len(sys.argv) >= 3:
     try:
         new_volume = int(sys.argv[2])
         set_volume(new_volume)
     except ValueError:
-        print("Lütfen ayarlamak istediğiniz ses düzeyini belirtin")
+        print("Ayarlamak istediginiz ses duzeyini belirtin")
 
 else:
-    print("Geçersiz komut veya argüman")
-    print("Kullanım: python script.py [g] [s <ses_düzeyi>]")
-    print("  g: Mevcut ses düzeyini gösterir")
-    print("  s: Ses düzeyini belirli bir değere ayarlar")
+    print("Gecersiz komut veya arguman")
+    print("Kullanim: python script.py [g] [s <ses_duzeyi>]")
+    print("  g: Mevcut ses duzeyini gosterir")
+    print("  s: Ses duzeyini belirli bir degere ayarlar")
