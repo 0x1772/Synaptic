@@ -1,0 +1,6 @@
+aiml
+pyttsx
+speechrecognition
+gTTS
+pyaudio
+pygame
