@@ -4,3 +4,4 @@ speechrecognition
 gTTS
 pyaudio
 pygame
+lxml

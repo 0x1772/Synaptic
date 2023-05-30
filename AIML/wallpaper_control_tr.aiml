@@ -1,0 +1,15 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<!-- WALLPAPER CHANGER -->
+    <category>
+        <pattern>ARKAPLANI DEĞİŞTİR</pattern>
+        <template>
+             <random>
+               <li>Masaüstü duvar kağıdınız değiştirildi</li>
+               <li>Duvar yağıdı yenisiyle değiştirildi</li>
+            </random>
+            <system>python change_wallpaper.py</system>
+        </template>
+    </category>
+                
+</aiml>
