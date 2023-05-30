@@ -1,0 +1,39 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<!-- MUSIC CONTROLS -->
+    <category>
+        <pattern>Oynat</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py play_pause</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Durdur</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py play_pause</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Sonraki *</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py play_pause</system>
+        </template>
+    </category>
+</aiml>

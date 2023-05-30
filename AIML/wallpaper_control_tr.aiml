@@ -2,14 +2,37 @@
 	
 <!-- WALLPAPER CHANGER -->
     <category>
-        <pattern>ARKAPLANI DEĞİŞTİR</pattern>
+        <pattern>Yeni Arkaplan</pattern>
         <template>
              <random>
                <li>Masaüstü duvar kağıdınız değiştirildi</li>
-               <li>Duvar yağıdı yenisiyle değiştirildi</li>
+               <li>Duvar kağıdı yenisiyle değiştirildi</li>
             </random>
-            <system>python change_wallpaper.py</system>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\change_wallpaper.py</system>
         </template>
     </category>
+                
+    <category>
+        <pattern>Yeni Arkaplan *</pattern>
+        <template>
+             <random>
+               <li>Masaüstü duvar kağıdınız değiştirildi</li>
+               <li>Duvar kağıdı yenisiyle değiştirildi</li>
+            </random>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\change_wallpaper.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Arkaplanı Değiştir</pattern>
+        <template>
+             <random>
+               <li>Masaüstü duvar kağıdınız değiştirildi</li>
+               <li>Duvar kağıdı yenisiyle değiştirildi</li>
+            </random>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\change_wallpaper.py</system>
+        </template>
+    </category>
+                
                 
 </aiml>

@@ -77,7 +77,16 @@
              <random>
                <li>Kutsal videoyu açıyorum efendim.</li>
             </random>
-            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.youtube.com/results?search_query=<star/>"</system>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "hhttps://www.youtube.com/watch?v=ZyhrYis509A"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>Kutsal müziği aç</pattern>
+        <template>
+             <random>
+               <li>Kutsal videoyu açıyorum efendim.</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.youtube.com/watch?v=ZyhrYis509A"</system>
         </template>
     </category>
     <category>
@@ -100,5 +109,5 @@
             </random>
             <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" https://www.netflix.com </system>
         </template>
-    <category>
+    </category>
 </aiml>
