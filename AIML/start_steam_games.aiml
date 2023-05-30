@@ -1,0 +1,25 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+ <!-- Launching programs -->
+
+    <category>
+        <pattern>Gazlayalım mı</pattern>
+         <template>
+             <random>
+               <li>Her zaman hazırım hadi başlayalım</li>
+            </random>
+            <system>"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "https://www.youtube.com/watch?v=iuJDhFRDx9M"</system>
+            <system>"C:\MyApps\Steam\steamapps\common\ForzaHorizon4\ForzaHorizon4.exe"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>Piyasa yapalım mı</pattern>
+         <template>
+             <random>
+               <li>Her zaman hazırım hadi başlayalım</li>
+            </random>
+            <system>"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "https://www.youtube.com/watch?v=iuJDhFRDx9M"</system>
+            <system>"C:\MyApps\Steam\steamapps\common\ForzaHorizon4\ForzaHorizon4.exe"</system>
+        </template>
+    </category>
+</aiml>

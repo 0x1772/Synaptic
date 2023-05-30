@@ -12,9 +12,8 @@
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py play_pause</system>
         </template>
     </category>
-
     <category>
-        <pattern>Durdur</pattern>
+        <pattern>Çal</pattern>
         <template>
              <random>
                <li>Hemen parça oynatıyorum efendim</li>
@@ -26,6 +25,18 @@
     </category>
 
     <category>
+        <pattern>Dur</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py stop</system>
+        </template>
+    </category>
+
+    <category>
         <pattern>Sonraki *</pattern>
         <template>
              <random>
@@ -33,7 +44,31 @@
                <li>Tabii ki</li>
                <li>Hemen hallediyorum</li>
             </random>
-            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py play_pause</system>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py ileri</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Tekrarla</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py geri</system>
+        </template>
+    </category>
+    <category>
+        <pattern>Geri dön</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py geri</system>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py geri</system>
         </template>
     </category>
 </aiml>

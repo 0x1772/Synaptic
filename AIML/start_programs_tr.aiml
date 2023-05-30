@@ -110,4 +110,14 @@
             <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" https://www.netflix.com </system>
         </template>
     </category>
+    <category>
+        <pattern>Duzenliyiciyi aç</pattern>
+        <template>
+             <random>
+               <li>Netflix açılıyor</li>
+               <li>Sayfa yükleniyor efendim</li>
+            </random>
+            <system> "C:\Users\realh\AppData\Local\Programs\Microsoft VS Code\Code.exe" </system>
+        </template>
+    </category>
 </aiml>

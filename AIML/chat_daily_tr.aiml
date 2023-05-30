@@ -36,6 +36,28 @@
     </category>
 
     <category>
+        <pattern>NE HABER</pattern>
+        <template>
+            <random>
+                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
+                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
+                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NE HABER*</pattern>
+        <template>
+            <random>
+                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
+                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
+                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
         <pattern>NABER</pattern>
         <template>
             <random>
@@ -56,5 +78,72 @@
             </random>
         </template>
     </category>
+
+     <category>
+        <pattern>NASILSIN *</pattern>
+        <template>
+            <random>
+                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
+                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
+                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>NASILSIN</pattern>
+        <template>
+            <random>
+                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
+                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
+                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>Ismin nedir *</pattern>
+        <template>
+            <random>
+                <li>Benim adım Synaptic</li> 
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>Tesekkur ederim *</pattern>
+        <template>
+            <random>
+                <li>Rica ederim</li> 
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>moralim bozuk</pattern>
+        <template>
+            <random>
+                <li>neden</li> 
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>O gitti</pattern>
+        <template>
+            <random>
+                <li>Nereye gitti</li> 
+            </random>
+        </template>
+    </category>
+     <category>
+        <pattern>Vefat Etti</pattern>
+        <template>
+            <random>
+                <li>Kaybınız her ne kadar sizin için üzücü olsada karbon bazlı yaşam türleri yolun sonuna geldiğinde azot döngüsüne karışmaktadır. Üzülmeniz bu sonucu değiştirmeyecek.</li> 
+            </random>
+        </template>
+    </category>
+
+
 
 </aiml>

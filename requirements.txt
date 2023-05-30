@@ -5,3 +5,5 @@ gTTS
 pyaudio
 pygame
 lxml
+pyttsx3
+psutil

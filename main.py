@@ -69,7 +69,6 @@ def listen():
         print(r.recognize_google(audio, language="tr"))
         return r.recognize_google(audio, language="tr")
     except sr.UnknownValueError:
-        online_speech("Ne dediğinizi anlayamadım, lütfen tekrar eder misiniz?")
         return listen()
     except sr.RequestError as e:
         print("Veri alınamıyor: Google Speech Recognition servisi; {0}".format(e))

@@ -2,7 +2,7 @@
 	
 <!-- WALLPAPER CHANGER -->
     <category>
-        <pattern>Yeni Arkaplan</pattern>
+        <pattern>Yeni Arka plan</pattern>
         <template>
              <random>
                <li>Masaüstü duvar kağıdınız değiştirildi</li>
@@ -13,7 +13,7 @@
     </category>
                 
     <category>
-        <pattern>Yeni Arkaplan *</pattern>
+        <pattern>Yeni Arka plan *</pattern>
         <template>
              <random>
                <li>Masaüstü duvar kağıdınız değiştirildi</li>
@@ -24,7 +24,7 @@
     </category>
 
     <category>
-        <pattern>Arkaplanı Değiştir</pattern>
+        <pattern>Arka planı Değiştir</pattern>
         <template>
              <random>
                <li>Masaüstü duvar kağıdınız değiştirildi</li>
