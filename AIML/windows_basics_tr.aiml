@@ -1,0 +1,13 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>Kilitle</pattern>
+        <template>
+             <random>
+               <li>Kilitleniyor</li>
+               <li>Kilitlendi</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\powershell_lock.py </system>
+        </template>
+    </category>
+</aiml>

@@ -1,26 +1,13 @@
 <aiml version="1.0.1" encoding="UTF-8">
 
     <category>
-        <pattern>Youtube Aç *</pattern>
+        <pattern>Youtube  *</pattern>
         <template>
              <random>
-               <li>Sure thing! </li>
-               <li>Right away, sir! </li>
-               <li>On it! </li>
+               <li>Müzik açılıyor.</li>
+               <li>Başlatılıyor efendim</li>
             </random>
-            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "<system> python C:\Users\realh\Masaüstü\Synaptic\scripts\youtube_search.py "<star/>"</system>"</system>
-        </template>
-    </category>
-
-    <category>
-        <pattern>Müzik Çal *</pattern>
-        <template>
-             <random>
-               <li>Sure thing! </li>
-               <li>Right away, sir! </li>
-               <li>On it! </li>
-            </random>
-            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "<system> python C:\Users\realh\Masaüstü\Synaptic\scripts\youtube_search.py "<star/>"</system>"</system>
+            <system> "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "<system> python C:\Users\realh\Masaüstü\Synaptic\scripts\youtube_search.py "<star/>"</system>"</system>
         </template>
     </category>
 
