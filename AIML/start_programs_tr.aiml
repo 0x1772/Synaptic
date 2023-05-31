@@ -120,4 +120,14 @@
             <system> "C:\Users\realh\AppData\Local\Programs\Microsoft VS Code\Code.exe" </system>
         </template>
     </category>
+    <category>
+        <pattern>Gereksizleri Temizle</pattern>
+        <template>
+             <random>
+               <li>Gereksiz dosyalar siliniyor...</li>
+               <li>Dosyalar temizleniyor...</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\remove_temp.py </system>
+        </template>
+    </category>
 </aiml>
