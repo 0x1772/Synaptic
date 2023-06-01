@@ -1,0 +1,13 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>Bir * kaç tl</pattern>
+        <template>
+             <random>
+               <li>Yaklaşık </li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\exchange_tr.py "<star/>"</system>
+        </template>
+    </category>
+
+</aiml>

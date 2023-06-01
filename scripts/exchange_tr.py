@@ -20,6 +20,6 @@ fiyat = para_birimi_fiyati(sembol)
 
 if fiyat:
     tl_fiyat = 1 / fiyat  # Girilen para biriminin TL karşılığı
-    print(f"1 {sembol} = {tl_fiyat} TL")
+    print(f"1 {sembol} = {tl_fiyat:.2f} TL")
 else:
     print("Geçerli bir para birimi sembolü girmediniz veya fiyat bulunamadı.")
