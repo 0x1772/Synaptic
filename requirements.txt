@@ -7,3 +7,5 @@ pygame
 lxml
 pyttsx3
 psutil
+selenium
+webdriver_manager
