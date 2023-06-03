@@ -10,4 +10,13 @@
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\powershell_lock.py </system>
         </template>
     </category>
-</aiml>
+    <category>
+        <pattern>KENDINI </pattern>
+        <template>
+             <random>
+               <li>Güncel dosyalar indiriliyor</li>
+               <li>Güncelleniyor</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\upd </system>
+        </template>
+    </category>

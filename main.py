@@ -20,7 +20,7 @@ def get_arguments():
     parser = argparse.ArgumentParser()
     optional = parser.add_argument_group("paramets")
     optional.add_argument("-v", "--voice", action="store_true", required=False, help="Enable Voice Mode")
-    optional.add_argument("-g", "--googlespeech", action="store_true", required=False, help="enable googlespeech")
+    optional.add_argument   ("-g", "--googlespeech", action="store_true", required=False, help="enable googlespeech")
     arguments = parser.parse_args()
     return arguments
 
