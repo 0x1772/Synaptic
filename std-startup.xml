@@ -15,7 +15,7 @@
             <learn>alice/mp/*.aiml</learn>
             <learn>alice/*.aiml</learn> -->
             <learn>AIML/*.aiml</learn>
-            <learn>AIML/alice_lib/*.aiml</learn>
+            <learn>AIML/alice_lib_en/*.aiml</learn>
             <!-- You can add more aiml files here -->
             <!--<learn>more_aiml.aiml</learn>-->
         </template>

@@ -1,0 +1,109 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Welcome, sir. How can i help you?</li> 
+                <li>Hello. Good to see you, sir</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            <random>
+                <li>Welcome, sir. How can i help you?</li> 
+                <li>Hello. Good to see you, sir</li> 
+            </random>
+        </template>
+    </category>
+
+        <category>
+        <pattern>WHATS UP *</pattern>
+        <template>
+            <random>
+                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
+                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
+                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <random>
+                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
+                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
+                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI *</pattern>
+        <template>
+            <random>
+                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
+                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
+                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            <random>
+                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
+                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
+                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>HOW ARE YOU *</pattern>
+        <template>
+            <random>
+                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
+                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
+                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>WHAT IS YOUR NAME *</pattern>
+        <template>
+            <random>
+                <li>My name is Synaptic</li> 
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>Thanks *</pattern>
+        <template>
+            <random>
+                <li>Rica ederim</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Thanks</pattern>
+        <template>
+            <random>
+                <li>You are welcome sir</li> 
+            </random>
+        </template>
+    </category>
+
+
+
+</aiml>
