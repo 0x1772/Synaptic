@@ -11,12 +11,13 @@
         </template>
     </category>
     <category>
-        <pattern>KENDINI </pattern>
+        <pattern>Kendini *</pattern>
         <template>
              <random>
-               <li>Güncel dosyalar indiriliyor</li>
-               <li>Güncelleniyor</li>
+               <li>Dosyalar indiriliyor</li>
+               <li>Güncelleniyor lütfen bekleyiniz</li>
             </random>
-            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\upd </system>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\update.py </system>
         </template>
     </category>
+</aiml>
