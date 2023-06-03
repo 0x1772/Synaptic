@@ -23,7 +23,7 @@ def get_arguments():
     optional.add_argument   ("-g", "--googlespeech", action="store_true", required=False, help="enable googlespeech")
     arguments = parser.parse_args()
     return arguments
-
+# GTTS LOGİC
 def google_speak(synaptic_speak):
     tts = gTTS(text=synaptic_speak, lang="tr", slow=False)
     date_string = datetime.datetime.now().strftime("%d%m%Y%H%M%S")
@@ -36,30 +36,34 @@ def google_speak(synaptic_speak):
     while mixer.music.get_busy():
         time.sleep(1)
         
-# Firefox açan kod        
+# FIREFOX       
 def open_firefox():
     firefox_path = r"C:\Program Files\Firefox Developer Edition\firefox.exe"
     webbrowser.register('firefox', None, webbrowser.BackgroundBrowser(firefox_path), 1)
     webbrowser.get('firefox').open('about:blank')
     print("Firefox Developer Edition uygulaması açıldı.")
 
-# Bilgisayar sıcaklık değerini alma
+
+# COMPUTER HEAT LEVEL
 def get_temperature():
     temperature = psutil.sensors_temperatures()['coretemp'][0].current
     return str(temperature)
 
-        
+
+#OFFLINE SPEAK        
 def offline_speech(synaptic_speak):
     engine = pyttsx3.init()
     engine.say(synaptic_speak)
     engine.runAndWait()
-
+    
+#ONLINE SPEAK
 def online_speech(synaptic_speak):
     if voice == "gTTS":
         google_speak(synaptic_speak)
     else:
         offline_speech(synaptic_speak)
-
+        
+#LISTENER WITH MIC
 def listen():
     r = sr.Recognizer()
     with sr.Microphone() as source:
