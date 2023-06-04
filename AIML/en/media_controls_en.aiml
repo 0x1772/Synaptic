@@ -1,0 +1,74 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<!-- MUSIC CONTROLS -->
+    <category>
+        <pattern>PLAY</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py play_pause</system>
+        </template>
+    </category>
+    <category>
+        <pattern>Çal</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py play_pause</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Dur</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py stop</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Sonraki *</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py ileri</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Tekrarla</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py geri</system>
+        </template>
+    </category>
+    <category>
+        <pattern>Geri dön</pattern>
+        <template>
+             <random>
+               <li>Hemen parça oynatıyorum efendim</li>
+               <li>Tabii ki</li>
+               <li>Hemen hallediyorum</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py geri</system>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py geri</system>
+        </template>
+    </category>
+</aiml>

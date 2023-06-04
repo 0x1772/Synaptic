@@ -26,9 +26,8 @@
         <pattern>WHATS UP *</pattern>
         <template>
             <random>
-                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
-                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
-                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+                <li>Welcome, sir. How can i help you?</li> 
+                <li>Hello. Good to see you, sir</li> 
             </random>
         </template>
     </category>
@@ -37,9 +36,8 @@
         <pattern>HI</pattern>
         <template>
             <random>
-                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
-                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
-                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+                <li>Welcome, sir. How can i help you?</li> 
+                <li>Hello. Good to see you, sir</li> 
             </random>
         </template>
     </category>
@@ -48,9 +46,8 @@
         <pattern>HI *</pattern>
         <template>
             <random>
-                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
-                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
-                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+                <li>Welcome, sir. How can i help you?</li> 
+                <li>Hello. Good to see you, sir</li> 
             </random>
         </template>
     </category>
@@ -59,9 +56,8 @@
         <pattern>HOW ARE YOU</pattern>
         <template>
             <random>
-                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
-                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
-                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+                <li>I am better because of you</li> 
+                <li>I am always good if i have power. How about you, sir</li> 
             </random>
         </template>
     </category>
@@ -70,9 +66,8 @@
         <pattern>HOW ARE YOU *</pattern>
         <template>
             <random>
-                <li>Hoşgeldiniz efendim, size nasıl yardımcı olabilirim!</li> 
-                <li>Merhaba efendim, size nasıl yardımcı olabilirim?</li> 
-                <li>Yaşadığınızı bilmek güzel, size nasıl yardım edebilirim?</li> 
+                <li>I am better because of you</li> 
+                <li>I am always good if i have power. How about you, sir</li> 
             </random>
         </template>
     </category>
@@ -82,6 +77,7 @@
         <template>
             <random>
                 <li>My name is Synaptic</li> 
+                <li>I am Synaptic</li> 
             </random>
         </template>
     </category>
@@ -90,7 +86,7 @@
         <pattern>Thanks *</pattern>
         <template>
             <random>
-                <li>Rica ederim</li> 
+                <li>You are welcome sir</li> 
             </random>
         </template>
     </category>

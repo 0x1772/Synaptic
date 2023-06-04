@@ -1,0 +1,13 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>HOW MUCH IS *</pattern>
+        <template>
+             <random>
+               <li>About * </li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\exchange_tr.py "<star/>"</system>
+        </template>
+    </category>
+
+</aiml>
