@@ -1,0 +1,23 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>LOCK </pattern>
+        <template>
+             <random>
+               <li>LOCKED</li>
+               <li>COMPUTER LOCKED</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\powershell_lock.py </system>
+        </template>
+    </category>
+    <category>
+        <pattern>LOCK *</pattern>
+        <template>
+             <random>
+               <li>LOCKED</li>
+               <li>COMPUTER LOCKED</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\update.py </system>
+        </template>
+    </category>
+</aiml>
