@@ -1,0 +1,33 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+ <!-- VOLUME CONTROLS -->
+
+	<category>
+        <pattern>VOLUE MAXIMUM/pattern>
+        <template>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py s 100</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOLUME ZERO</pattern>
+        <template>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py s 0</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOLUME *</pattern>
+        <template>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py s <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOLUME LEVEL *</pattern>
+        <template>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\volume_control.py g</system>
+        </template>
+    </category>
+
+</aiml>
