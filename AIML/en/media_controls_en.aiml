@@ -2,70 +2,64 @@
 	
 <!-- MUSIC CONTROLS -->
     <category>
-        <pattern>PLAY</pattern>
+        <pattern>PLAY *</pattern>
         <template>
              <random>
-               <li>Hemen parça oynatıyorum efendim</li>
-               <li>Tabii ki</li>
-               <li>Hemen hallediyorum</li>
+               <li>Playing music, sir</li>
+                <li>Playing music from online</li>
+                <li>Playing something, sir</li>
             </random>
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py play_pause</system>
         </template>
     </category>
     <category>
-        <pattern>Çal</pattern>
+        <pattern>PLAY</pattern>
         <template>
              <random>
-               <li>Hemen parça oynatıyorum efendim</li>
-               <li>Tabii ki</li>
-               <li>Hemen hallediyorum</li>
+               <li>Playing music, sir</li>
+                <li>Playing music from online</li>
+                <li>Playing something, sir</li>
             </random>
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py play_pause</system>
         </template>
     </category>
 
     <category>
-        <pattern>Dur</pattern>
+        <pattern>STOP *</pattern>
         <template>
-             <random>
-               <li>Hemen parça oynatıyorum efendim</li>
-               <li>Tabii ki</li>
-               <li>Hemen hallediyorum</li>
+             <random> 
+               <li>Music is stopping</li>
+               <li>Music stopped</li>
             </random>
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py stop</system>
         </template>
     </category>
 
     <category>
-        <pattern>Sonraki *</pattern>
+        <pattern>NEXT *</pattern>
         <template>
              <random>
-               <li>Hemen parça oynatıyorum efendim</li>
-               <li>Tabii ki</li>
-               <li>Hemen hallediyorum</li>
+               <li>Playing next track</li>
             </random>
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py ileri</system>
         </template>
     </category>
 
     <category>
-        <pattern>Tekrarla</pattern>
+        <pattern>REPEAT</pattern>
         <template>
              <random>
-               <li>Hemen parça oynatıyorum efendim</li>
-               <li>Tabii ki</li>
-               <li>Hemen hallediyorum</li>
+               <li>Playing again current track</li>
             </random>
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py geri</system>
         </template>
     </category>
     <category>
-        <pattern>Geri dön</pattern>
+        <pattern>BACK</pattern>
         <template>
              <random>
-               <li>Hemen parça oynatıyorum efendim</li>
-               <li>Tabii ki</li>
-               <li>Hemen hallediyorum</li>
+               <li>On it, sir</li>
+               <li>Going back to previous track</li>
             </random>
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py geri</system>
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\media_control.py geri</system>
