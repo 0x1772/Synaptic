@@ -1,0 +1,121 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+ <!-- Launching programs -->
+
+    <category>
+        <pattern>OPEN FIREFOX</pattern>
+         <template>
+             <random>
+               <li>Opening firefox, sir</li>
+               <li>On it, sir</li>
+               <li>Launching firefox</li>
+            </random>
+            <system>"C:\Program Files\Firefox Developer Edition\firefox.exe"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN FIREFOX APP</pattern>
+         <template>
+             <random>
+               <li>Opening firefox, sir</li>
+               <li>On it, sir</li>
+               <li>Launching firefox</li>
+            </random>
+            <system>"C:\Program Files\Firefox Developer Edition\firefox.exe"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>START FIREFOX</pattern>
+         <template>
+             <random>
+               <li>Opening firefox, sir</li>
+               <li>On it, sir</li>
+               <li>Launching firefox</li>
+            </random>
+            <system>"C:\Program Files\Firefox Developer Edition\firefox.exe"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOOGLE *</pattern>
+        <template>
+             <random>
+               <li>Result are listing for you</li>
+               <li>There is results sir </li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "http://www.google.com/search?q=<star/>"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YOUTUBE *</pattern>
+        <template>
+             <random>
+               <li>Youtube results are listing</li>
+               <li>I am listing videos for you</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.youtube.com/results?search_query=<star/>"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>BARBIE</pattern>
+        <template>
+             <random>
+               <li>Im starting sacred video</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "hhttps://www.youtube.com/watch?v=ZyhrYis509A"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>OPEN SACRED MUSIC</pattern>
+        <template>
+             <random>
+               <li>Im starting sacred video</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.youtube.com/watch?v=ZyhrYis509A"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>MAPS *</pattern>
+        <template>
+             <random>
+               <li>I am opening location at maps</li>
+               <li>Opening maps</li>
+               <li>Opening location for you</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" "https://www.google.co.in/maps/search/<star/>"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>NETFLIX</pattern>
+        <template>
+             <random>
+               <li>Netflix opening</li>
+               <li>Website loading</li>
+            </random>
+            <system> "C:\Program Files\Firefox Developer Edition\firefox.exe" https://www.netflix.com </system>
+        </template>
+    </category>
+    <category>
+        <pattern>OPEN EDITOR</pattern>
+        <template>
+             <random>
+               <li>Opening code editor for you</li>
+               <li>Launching visual studio code for you</li>
+            </random>
+            <system> "C:\Users\realh\AppData\Local\Programs\Microsoft VS Code\Code.exe" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>CLEAN TEMP FILES</pattern>
+        <template>
+             <random>
+               <li>Cleanin temp files for you...</li>
+               <li>Cleaning files for you...</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\remove_temp.py </system>
+        </template>
+    </category>
+</aiml>
