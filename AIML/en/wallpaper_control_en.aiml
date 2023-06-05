@@ -1,0 +1,38 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<!-- WALLPAPER CHANGER -->
+    <category>
+        <pattern>NEW BACKGROUND</pattern>
+        <template>
+             <random>
+               <li>Your desktop background changed.</li>
+               <li>Your desktop background changed with new one.</li>
+            </random>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\change_wallpaper.py</system>
+        </template>
+    </category>
+                
+    <category>
+        <pattern>CHANGE BACKGROUND</pattern>
+        <template>
+             <random>
+               <li>Your desktop background changed.</li>
+               <li>Your desktop background changed with new one.</li>
+            </random>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\change_wallpaper.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BACKGROUND *</pattern>
+        <template>
+             <random>
+               <li>Your desktop background changed.</li>
+               <li>Your desktop background changed with new one.</li>
+            </random>
+            <system>python C:\Users\realh\Masaüstü\Synaptic\scripts\change_wallpaper.py</system>
+        </template>
+    </category>
+                
+                
+</aiml>
