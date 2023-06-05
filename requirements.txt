@@ -9,3 +9,6 @@ pyttsx3
 psutil
 selenium
 webdriver_manager
+python-dotenv
+pyautogui
+openai
