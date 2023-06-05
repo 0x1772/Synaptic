@@ -12,3 +12,4 @@ webdriver_manager
 python-dotenv
 pyautogui
 openai
+googletrans==4.0.0-rc1
