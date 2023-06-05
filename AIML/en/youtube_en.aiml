@@ -1,0 +1,36 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>YOUTUBE *</pattern>
+        <template>
+             <random>
+               <li>Opening video</li>
+               <li>Starting video from youtube</li>
+            </random>
+            <system> "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "<system> python C:\Users\realh\Masaüstü\Synaptic\scripts\youtube_search.py "<star/>"</system>"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YOUTUBE SEARCH *</pattern>
+        <template>
+             <random>
+               <li>Opening video</li>
+               <li>Starting video from youtube</li>
+            </random>
+            <system> "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "<system> python C:\Users\realh\Masaüstü\Synaptic\scripts\youtube_search.py "<star/>"</system>"</system>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SEARCH YOUTUBE *</pattern>
+        <template>
+             <random>
+               <li>Opening video</li>
+               <li>Starting video from youtube</li>
+            </random>
+            <system> "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "<system> python C:\Users\realh\Masaüstü\Synaptic\scripts\youtube_search.py "<star/>"</system>"</system>
+        </template>
+    </category>
+
+</aiml>
