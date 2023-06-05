@@ -25,7 +25,7 @@ def get_arguments():
     return arguments
 # GTTS LOGİC
 def google_speak(synaptic_speak):
-    tts = gTTS(text=synaptic_speak, lang="en", slow=False)
+    tts = gTTS(text=synaptic_speak, lang="tr", slow=False)
     date_string = datetime.datetime.now().strftime("%d%m%Y%H%M%S")
     filename = "voice" + date_string + ".mp3"
     file_path =  "C:\\Users\\realh\Masaüstü\\Synaptic\\audio_files\\" + filename  # Dosya yolunu burada değiştirin
@@ -70,8 +70,8 @@ def listen():
         print("Dinleniyor...")
         audio = r.listen(source)
     try:
-        print(r.recognize_google(audio, language="en"))
-        return r.recognize_google(audio, language="en")
+        print(r.recognize_google(audio, language="tr"))
+        return r.recognize_google(audio, language="tr")
     except sr.UnknownValueError:
         return listen()
     except sr.RequestError as e:
