@@ -1,3 +1,4 @@
+import sys
 import subprocess
 
 def run_powershell_script(script_path):
@@ -6,7 +7,8 @@ def run_powershell_script(script_path):
     except subprocess.CalledProcessError as e:
         print(f"Hata: {e}")
 
-# PowerShell betiğinin tam dosya yolunu belirtin
-powershell_script_path = 'C:\\Users\\realh\\Masaüstü\\Synaptic\\powershell_basics\\lock_windows.ps1'
-
-run_powershell_script(powershell_script_path)
+if len(sys.argv) < 2:
+    print("Lütfen PowerShell betiğinin dosya yolunu argüman olarak belirtin.")
+else:
+    powershell_script_path = sys.argv[1]
+    run_powershell_script(powershell_script_path)
