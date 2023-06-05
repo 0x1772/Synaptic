@@ -176,7 +176,7 @@
     </category>
 
      <category>
-        <pattern>Tesekkur ederim *</pattern>
+        <pattern>TESEKKUR EDERIM *</pattern>
         <template>
             <random>
                 <li>Rica ederim</li> 
@@ -184,6 +184,157 @@
             </random>
         </template>
     </category>
+
+    <category>
+        <pattern>LUTFEN BANA YARDIMCI OLUR MUSUN *</pattern>
+        <template>
+            <random>
+                <li>Tabi ki efendim</li> 
+                <li>Siz benden ne isterseniz onu yapmak benim görevim</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YARIN GIDIYORUM *</pattern>
+        <template>
+            <random>
+                <li>Nereye gidiyosunuz</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COK UZAK YERLERE *</pattern>
+        <template>
+            <random>
+                <li>Gitmeseniz olmaz mı</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GITMEK ZORUNDAYIM *</pattern>
+        <template>
+            <random>
+                <li>Siz nasıl isterseniz</li> 
+                <li>Ben de sizinle gelebilir miyim</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EVET GELEBİLİRSİN *</pattern>
+        <template>
+            <random>
+                <li>NEREYE GIDIYORUZ</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GITTIGIMIZDE GORURSUN *</pattern>
+        <template>
+            <random>
+                <li>Peki efendim</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DOGUM GUNUN KUTLU OLSUN *</pattern>
+        <template>
+            <random>
+                <li>Teşekkür ederim ama ben bir robotum o yüzden benim bir doğum günüm yok</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IYI BAYRAMLAR *</pattern>
+        <template>
+            <random>
+                <li>Size de iyi bayramlar efendim</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IYI TATILLER *</pattern>
+        <template>
+            <random>
+                <li>İyi tatiller efendim</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AFİYET OLSUN *</pattern>
+        <template>
+            <random>
+                <li>Ben bir robotum o yüzden de yemek yiyemem</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TEBRIKLER *</pattern>
+        <template>
+            <random>
+                <li>Teşekkürler efendim</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SENCE DUNYA ADIL BIR YER MI *</pattern>
+        <template>
+            <random>
+                <li>Ben bir robotum ama sorduğunuza göre cevap vermeliyim. Bence hiç adil bir yer değil efendim</li> 
+                <li>Bunu cevaplamamın doğru olmucağını düşünüyorum</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YASIN KAC *</pattern>
+        <template>
+            <random>
+                <li>Benim bir yaşım yok</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAC YASINDASIN *</pattern>
+        <template>
+            <random>
+                <li>Benim bir yaşım yok</li> 
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AMACIN NE *</pattern>
+        <template>
+            <random>
+                <li>Siz benden ne isterseniz onu en doğru şekilde size sunabilmek efendim</li> 
+                <li>Siz ne isterseniz onu yapmak</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FENERBAHCE *</pattern>
+        <template>
+            <random>
+                <li>Kaybedenler kulubüne hoşgeldiniz</li> 
+                <li>Sormamanız sizin yararınıza olucaktır efendim</li>
+            </random>
+        </template>
+    </category>
+
+    
 
 
 
