@@ -2052,19 +2052,10 @@ html, body {
 }
 
 /* Sections background: Me */
-.section-me {
-  background: url(../img/portfolio-7.webp) center no-repeat fixed;
-}
-
 .section-me h2 {
   margin: 0;
   color: #ffffff;
   position: relative;
-}
-
-/* Sections background: Twitter */
-.section-twitter {
-  background: url(../img/portfolio-8.webp) center no-repeat fixed;
 }
 
 .section-twitter .container {
