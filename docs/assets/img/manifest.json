@@ -2,7 +2,7 @@
     "name": "",
     "icons": [
         {
-            "src": "/android-chrome-144x144.png",
+            "src": "/android-chrome-144x144.webp",
             "sizes": "144x144",
             "type": "image/png"
         }
