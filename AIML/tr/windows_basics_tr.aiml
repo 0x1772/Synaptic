@@ -20,4 +20,15 @@
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\update.py </system>
         </template>
     </category>
+    <category>
+        <pattern>GOOGLE DNS</pattern>
+        <template>
+             <random>
+               <li>Varsayılan dns google dns ile değiştiriliyor</li>
+               <li>Varsayılan dns ayarları istediğiniz şekilde değiştiriliyor.</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\powershell_run.py C:\Users\realh\Masaüstü\Synaptic\powershell_basics\dns_change_google.ps1</system>
+        </template>
+    </category>
 </aiml>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\powershell_run.py C:\Users\realh\Masaüstü\Synaptic\powershell_basics\lock_windows.ps1</system>
