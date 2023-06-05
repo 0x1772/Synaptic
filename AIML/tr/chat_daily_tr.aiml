@@ -102,10 +102,75 @@
     </category>
 
      <category>
-        <pattern>Ismin nedir *</pattern>
+        <pattern>ISMIN NEDIR *</pattern>
         <template>
             <random>
                 <li>Benim adım Synaptic</li> 
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>TESEKKUR EDERIM *</pattern>
+        <template>
+            <random>
+                <li>Rica ederim</li> 
+                <li>Ne demek bu benim görevim</li>
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>TESEKKURLER*</pattern>
+        <template>
+            <random>
+                <li>Rica ederim</li> 
+                <li>Ne demek bu benim görevim</li>
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>MORALIM BOZUK</pattern>
+        <template>
+            <random>
+                <li>neden</li> 
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>O GITTI</pattern>
+        <template>
+            <random>
+                <li>Nereye gitti</li> 
+            </random>
+        </template>
+    </category>
+     <category>
+        <pattern>VEFAT ETTI</pattern>
+        <template>
+            <random>
+                <li>Kaybınız her ne kadar sizin için üzücü olsada karbon bazlı yaşam türleri yolun sonuna geldiğinde azot döngüsüne karışmaktadır. Üzülmeniz bu sonucu değiştirmeyecek.</li> 
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>GUNAYDIN *</pattern>
+        <template>
+            <random>
+                <li>Günaydın efendim</li> 
+                <li>Günaydın</li>
+            </random>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IYI AKSAMLAR *</pattern>
+        <template>
+            <random>
+                <li>İyi akşamlar</li> 
+                <li>İyi akşamlar efendim</li>
             </random>
         </template>
     </category>
@@ -115,31 +180,7 @@
         <template>
             <random>
                 <li>Rica ederim</li> 
-            </random>
-        </template>
-    </category>
-
-     <category>
-        <pattern>moralim bozuk</pattern>
-        <template>
-            <random>
-                <li>neden</li> 
-            </random>
-        </template>
-    </category>
-    <category>
-        <pattern>O gitti</pattern>
-        <template>
-            <random>
-                <li>Nereye gitti</li> 
-            </random>
-        </template>
-    </category>
-     <category>
-        <pattern>Vefat Etti</pattern>
-        <template>
-            <random>
-                <li>Kaybınız her ne kadar sizin için üzücü olsada karbon bazlı yaşam türleri yolun sonuna geldiğinde azot döngüsüne karışmaktadır. Üzülmeniz bu sonucu değiştirmeyecek.</li> 
+                <li>Ne demek bu benim görevim</li>
             </random>
         </template>
     </category>

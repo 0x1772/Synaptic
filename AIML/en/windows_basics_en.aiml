@@ -20,4 +20,14 @@
             <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\update.py </system>
         </template>
     </category>
+    <category>
+        <pattern>CHANGE DNS TO GOOGLE</pattern>
+        <template>
+             <random>
+               <li>DNS changing with google dns settings.</li>
+               <li>Changing default dns setting with you want.</li>
+            </random>
+            <system> python C:\Users\realh\Masaüstü\Synaptic\scripts\powershell_run.py C:\Users\realh\Masaüstü\Synaptic\powershell_basics\dns_change_google.ps1</system>
+        </template>
+    </category>
 </aiml>
