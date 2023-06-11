@@ -134,3 +134,17 @@ if __name__ == "__main__":
         synaptic_speak = kernel.respond(response)
         logging.info("Synaptic: " + synaptic_speak)
         online_speech(synaptic_speak)
+        
+class Synaptic:
+
+    def __init__(self):
+        self.packages = []
+
+    def get_packages(self):
+        return self.packages
+
+    def install_package(self, package_name):
+        self.packages.append(package_name)
+
+    def uninstall_package(self, package_name):
+        self.packages.remove(package_name)
