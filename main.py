@@ -16,7 +16,7 @@ voice = "pyttsx"
 terminate = ["bye", "quit", "by", "bb", "goodbye", "good bye", "see you later", "seeyoulater", "off"]
 
 # Log dosyasının adı, dizini ve formatı
-log_directory = "C:\\Users\\realh\\Masaüstü\\Synaptic\\log_directory"
+log_directory = "C:\\Users\\realh\\Masaüstü\\Synaptic\\log_directory\\"
 log_file = log_directory + datetime.datetime.now().strftime("%Y%m%d%H%M%S") + "-synaptic_app.log"
 log_format = "%(asctime)s - %(levelname)s - %(message)s"
 

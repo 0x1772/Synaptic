@@ -1,0 +1,3 @@
+2023-06-19 12:13:12,680 - INFO - Synaptic: 
+2023-06-19 12:13:12,706 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\realh\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2023-06-19 12:13:12,706 - INFO - Using writeable comtypes cache directory: 'C:\Users\realh\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
